@@ -1,0 +1,87 @@
+.
+├── screenshots
+│   ├── iphone_login.png
+│   ├── iphone_tfa.png
+│   ├── pc_login.png
+│   └── pc_tfa.png
+├── scripts
+│   └── build.mjs
+├── src
+│   ├── assets
+│   │   ├── icons
+│   │   └── images
+│   │       ├── iPhone_banner@2x.png
+│   │       ├── iPhone_banner@3x.png
+│   │       ├── iphone_emall@2x.png
+│   │       ├── iphone_emall@3x.png
+│   │       ├── iphone_password@2x.png
+│   │       ├── iphone_password@3x.png
+│   │       ├── iphone_tx.png
+│   │       ├── pc_banner.png
+│   │       ├── pc_email.png
+│   │       ├── pc_password.png
+│   │       └── pc_tx.png
+│   ├── common
+│   │   ├── fonts
+│   │   └── styles
+│   │       ├── index.css
+│   │       └── reset.css
+│   ├── components
+│   │   ├── Button
+│   │   │   └── index.tsx
+│   │   ├── Icons
+│   │   │   ├── Minus.tsx
+│   │   │   ├── Plus.tsx
+│   │   │   ├── SoundFilling.tsx
+│   │   │   ├── SoundMute.tsx
+│   │   │   └── index.ts
+│   │   ├── Input
+│   │   │   ├── index.module.css
+│   │   │   └── index.tsx
+│   │   └── Widget
+│   │       └── Copyright.tsx
+│   ├── constants
+│   ├── hooks
+│   │   └── useDrag.ts
+│   ├── layouts
+│   ├── pages
+│   │   ├── Home
+│   │   │   └── index.tsx
+│   │   ├── Loading
+│   │   │   ├── index.module.css
+│   │   │   └── index.tsx
+│   │   ├── Login
+│   │   │   ├── index.module.scss
+│   │   │   └── index.tsx
+│   │   └── App.tsx
+│   ├── public
+│   │   └── favicon.svg
+│   ├── routers
+│   │   ├── index.tsx
+│   │   └── route-config.ts
+│   ├── services
+│   │   ├── api
+│   │   │   ├── login.ts
+│   │   │   └── test.http
+│   │   ├── config.ts
+│   │   └── request.ts
+│   ├── types
+│   │   └── index.ts
+│   ├── utils
+│   │   └── index.ts
+│   ├── index.tsx
+│   └── vite-env.d.ts
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── index.html
+├── jest.config.js
+├── nginx.conf
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+
+27 directories, 57 files

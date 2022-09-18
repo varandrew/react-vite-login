@@ -1,0 +1,15 @@
+POST https://gateway.lizhi.io/demo/login.php?phase=1 HTTP/1.1
+content-type: application/json
+
+{
+    "username": "user09",
+    "password": "OpenSesame"
+}
+
+###
+POST https://gateway.lizhi.io/demo/login.php?phase=2 HTTP/1.1
+content-type: application/json
+
+{
+    "tfa": "123456",
+}
