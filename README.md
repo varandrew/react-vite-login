@@ -28,10 +28,10 @@ This project uses many tools like:
 ## Screenshots
 
 ### Login Page
-<img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/iphone_login.png" width="365" height="619"/> <img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/pc_login.png" width="800" height="717"/>
+<img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/iphone_login.png" width="414" height="896"/> <img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/pc_login.png" width="800" height="717"/>
 
 ### Two-factor authentication Page
-<img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/iphone_tfa.png" width="365" height="619"/> <img src="https://github.com/varandrew/Petrichor-Music/blob/main/screenshot/pc_tfa.png" width="800" height="717"/>
+<img src="https://github.com/varandrew/react-vite-login/blob/main/screenshots/iphone_tfa.png" width="414" height="896"/> <img src="https://github.com/varandrew/react-vite-login/blob/main/screenshot/pc_tfa.png" width="800" height="717"/>
 
 ## Project Layout
 ```bash
