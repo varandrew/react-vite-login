@@ -43,14 +43,11 @@ const Login = () => {
         window.localStorage.setItem('token', data?.token)
         setErrMsg('')
       } else {
-        // TODO:Reset test token
-        // setToken('test')
-        // window.localStorage.setItem('token', 'test')
         setErrMsg('密码错误或邮箱与对应的密码不相符')
         setTimeout(() => setErrMsg(''), 2000)
       }
     } catch (err) {
-      console.log('🚀 ~ file: index.tsx ~ line 39 ~ submitLoginForm ~ err', err)
+      console.log('🚀 ~ file: index.tsx ~ line 50 ~ submitLoginForm ~ err', err)
     }
   }
 
@@ -61,13 +58,13 @@ const Login = () => {
       const { status, message: msg, data } = await tfaAuth({ tfa })
 
       if (status === 0) {
-        window.location.assign('https://www.lizhi.io')
+        // window.location.assign('https://www.lizhi.io')
       } else {
         setErrMsg('两步认证验证码错误')
         setTimeout(() => setErrMsg(''), 2000)
       }
     } catch (err) {
-      console.log('🚀 ~ file: index.tsx ~ line 72 ~ submitTFAForm ~ err', err)
+      console.log('🚀 ~ file: index.tsx ~ line 67 ~ submitTFAForm ~ err', err)
     }
   }
 

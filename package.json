@@ -14,10 +14,12 @@
     "svgr": "pnpm dlx @svgr/cli -d src/components/Icons --ignore-existing --icon --typescript src/assets/icons"
   },
   "dependencies": {
+    "@types/qs": "^6.9.7",
     "axios": "^0.27.2",
     "chalk": "^5.0.1",
     "framer-motion": "^6.3.4",
     "lodash": "^4.17.21",
+    "qs": "^6.11.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "6",
