@@ -58,7 +58,7 @@ const Login = () => {
       const { status, message: msg, data } = await tfaAuth({ tfa })
 
       if (status === 0) {
-        // window.location.assign('https://www.lizhi.io')
+        window.location.assign('https://www.lizhi.io')
       } else {
         setErrMsg('两步认证验证码错误')
         setTimeout(() => setErrMsg(''), 2000)
